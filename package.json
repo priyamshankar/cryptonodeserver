@@ -4,7 +4,8 @@
   "description": "Server for crypto tracker react app which handles all the operations like authentication, authorisation, all the rest api's and email functionalities.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+"start":"node index.js"
   },
   "author": "Priyam Shankar",
   "license": "ISC",
