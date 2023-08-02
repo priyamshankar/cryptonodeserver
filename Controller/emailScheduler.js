@@ -63,7 +63,7 @@ async function alertLogic(){
 }
 
 
-cron.schedule('1 * * * * *',()=>{
+cron.schedule('*/10 * * * * *',()=>{
     fetchAllData(); // important! dont forget to uncomment this
     console.log("inside cron");
 })
