@@ -5,7 +5,7 @@ const url = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PAS
 
 mongoose.set("strictQuery",false);
 mongoose.connect(url).then(()=>{
-    console.log("Remote db connected");
+    
 }).catch((e)=>{
     console.log(e);
 })

@@ -58,12 +58,11 @@ async function alertLogic(){
             }
             await alertSh.deleteOne(alertData._id);
             }
-        // console.log(alertData._id);
+        
     }) 
 }
 
 
-cron.schedule('*/10 * * * * *',()=>{
+cron.schedule('*/50 * * * * *',()=>{
     fetchAllData(); // important! dont forget to uncomment this
-    console.log("inside cron");
 })
