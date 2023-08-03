@@ -63,6 +63,6 @@ async function alertLogic(){
 }
 
 
-cron.schedule('*/50 * * * * *',()=>{
+cron.schedule('* */2 * * * *',()=>{
     fetchAllData(); // important! dont forget to uncomment this
 })
